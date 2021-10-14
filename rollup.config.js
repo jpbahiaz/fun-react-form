@@ -5,6 +5,7 @@ import analyzer from 'rollup-plugin-analyzer'
 
 export default {
   input: 'src/index.ts',
+  external: ["react"],
   output: {
     dir: 'lib',
     format: 'esm',
